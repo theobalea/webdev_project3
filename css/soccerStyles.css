@@ -1,0 +1,97 @@
+/* Navigation: Same on all three pages */
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+/* Style 1: Dark background with white text */
+body {
+  margin: 0;
+  background-color: #292929;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Style 2: Fluid page width */
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: 25px auto;
+}
+
+/* Style 3: Main heading with red background */
+h1 {
+  color: white;
+  background-color: #ad1f32;
+  text-align: center;
+  font-size: 2em;
+  padding: 18px;
+}
+
+/* Style 4: Red section headings with underline */
+h2 {
+  color: #ff6b7b;
+  border-bottom: 2px solid #ad1f32;
+  padding-bottom: 8px;
+  margin-top: 30px;
+}
+
+/* Style 5: Easy-to-read paragraphs and formatting */
+main p {
+  line-height: 1.6;
+  font-size: 1.05em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Style 6: Centered pictures with white borders */
+main img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 20px auto;
+  border: 3px solid white;
+}
+
+/* Style 7: Light gray background for the Ronaldo timeline */
+main ol {
+  background-color: #3c3c3c;
+  padding: 20px 20px 20px 40px;
+}
+
+/* Style 8: Spacing for list items */
+main li {
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+/* Style 9: Centered video with and adjusted width */
+main video {
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+  margin: 20px auto;
+}

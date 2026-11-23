@@ -1,0 +1,87 @@
+/* Navigation: Same on all three pages */
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+/* Style 1: Light blue background and basic font */
+body {
+  margin: 0;
+  background-color: #8cb0d5;
+  color: #222222;
+  font-family: Arial, sans-serif;
+}
+
+/* Style 2: Fluid page width */
+main {
+  width: 85%;
+  max-width: 1000px;
+  margin: 25px auto;
+}
+
+/* Style 3: Centered blue main heading */
+h1 {
+  color: #174c76;
+  background-color: #d4e8fa;
+  border: 2px solid #174c76;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* Style 4: Light blue section headings with bottom border */
+h2 {
+  color: #174c76;
+  background-color: #d4e8fa;
+  border-bottom: 2px solid #174c76;
+  padding: 10px;
+}
+
+/* Style 5: Easy-to-read paragraphs */
+main p {
+  line-height: 1.6;
+  font-size: 1.05em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Style 6: Centered image with a simple border */
+main img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 25px auto;
+  border: 3px solid #174c76;
+}
+
+/* Style 7: Spacing between bullet points */
+main li {
+  margin-bottom: 8px;
+}
+
+/* Style 8: Blue links at bottom of the page */
+main a {
+  color: #174c76;
+  font-weight: bold;
+}

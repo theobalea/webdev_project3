@@ -1,0 +1,92 @@
+/* Navigation: Same on all three pages */
+
+nav {
+  background-color: #333333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555555;
+}
+
+/* Style 1: Gray background and basic font */
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+  color: #222222;
+  font-family: Arial, sans-serif;
+}
+
+/* Style 2: Adjusted width for whole page */
+main {
+  width: 850px;
+  max-width: 90%;
+  margin: 25px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  box-sizing: border-box;
+}
+
+/* Style 3: Large and centered name */
+h1 {
+  color: #183d63;
+  text-align: center;
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+/* Style 4: Centered contact information */
+.contact {
+  text-align: center;
+  color: #555555;
+  border-bottom: 2px solid #183d63;
+  padding-bottom: 15px;
+}
+
+/* Style 5: Navy section headings with underline */
+h2 {
+  color: #183d63;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+/* Style 6: Smaller subsection headings */
+h3 {
+  color: #333333;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+/* Style 7: Readable paragraph spacing */
+main p {
+  line-height: 1.5;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Style 8: Adjusted bullet lists */
+main li {
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
