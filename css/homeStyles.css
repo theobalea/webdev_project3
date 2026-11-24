@@ -85,3 +85,19 @@ main a {
   color: #174c76;
   font-weight: bold;
 }
+
+/* Media query 1: screens 600px and wider */
+@media (min-width: 600px) {
+  main { width: 80%; }
+  h1 { font-size: 2.4em; }
+  main p { font-size: 1.15em; }
+  main img { max-width: 75%; }
+}
+
+/* Media query 2: screens 992px and wider */
+@media (min-width: 992px) {
+  main { width: 70%; }
+  h1 { font-size: 3em; }
+  h2 { font-size: 1.8em; }
+  main p { line-height: 1.8; }
+}
